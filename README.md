@@ -27,4 +27,4 @@ Par exemples si on a les animaux `(chevreuil, chien, pigeon)`, les adjectifs `(r
 Aujourd’hui, j’ai vu un pigeon s’emparer d’un panier rouge plein de kiwis.
 ```
 
-Pour générer des nombres aléatoires en Python, référez-vous à https://docs.python.org/3/library/random.html, spécifiquement aux fonctions pour les 
+Pour générer des nombres aléatoires en Python, référez-vous à https://docs.python.org/3/library/random.html, spécifiquement aux fonctions pour les entiers
