@@ -4,32 +4,27 @@
 
 Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)
 
-## Objectifs
+À moins d'indication contraires, vous devez retourner les résultats des fonctions, pas les afficher directement.
 
-Compléter les quelques exercices suivants en modifiant le code de [exercice.py](exercice.py):
+## 1. Longueur paire
 
-1. Vérifier si le nombre de caractères d’une chaîne de caractères est pair
-2. Supprimer le 3ème caractère d’une chaîne de caractères
-3. Remplacer un caractère d’une chaîne de caractère par un autre
-4. Renvoyer le nombre d’occurrences d’un caractère dans une chaîne de caractères, sans utiliser de fonctions avancées
-5. Rechercher le nombre de mots dans une phrase donnée
+Vérifier si le nombre de caractères d’une chaîne de caractères est pair.
 
-### À compléter
-Vous devez compléter les fonctions suivantes du fichier [exercice.py](exercice.py).
+## 2. Fréquence d'une lettre
 
-```python
-def is_even_len(string: str) -> bool:
-    return True
+Calculer le nombre d’occurrences d’un caractère dans une chaîne de caractères, sans utiliser de fonctions avancées.
 
-def remove_third_char(string: str) -> str:
-    return ""
+## 3. Prénoms composés
 
-def replace_char(string: str, old_char: str, new_char: str) -> str:
-    return ""
+Soit un prénom composé (avec un trait d’union) passé en paramètre (exemple « jean-luc »). Il faut extraire le premier prénom (exemple « jean » pour « jean-luc ») puis le mettre dans la phrase « Bonjour *PremierPrénom* » (exemple « Bonjour Jean »). La première lettre du prénom doit être en majuscule (même si le paramètre est en minuscule). Indice : Les chaînes de caractères possède des fonctions de recherche et de séparation.
 
-def get_nb_char(string: str, char: str) -> int:
-    return 0
+## 4. Texte à trous
 
-def get_nb_words(sentence: str, word: str) -> int:
-    return 0
+Bâtir la phrase «Aujourd’hui, j’ai vu un \<animal\> s’emparer d’un panier \<adjectif\> plein de \<fruit\>.» en sélectionnant aléatoirement l’animal, l’adjectif et le fruit à partir de ceux donnés en paramètres. Les paramètres sont trois tuples de n'importe quelle taille.
+
+Par exemples si on a les animaux `(chevreuil, chien, pigeon)`, les adjectifs `(rouge, officiel, lourd)` et les fruits `(pommes, kiwis, bananes)`, on pourrait obtenir la phrase :
 ```
+Aujourd’hui, j’ai vu un pigeon s’emparer d’un panier rouge plein de kiwis.
+```
+
+Pour générer des nombres aléatoires en Python, référez-vous à https://docs.python.org/3/library/random.html, spécifiquement aux fonctions pour les 
